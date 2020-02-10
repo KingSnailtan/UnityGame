@@ -1,8 +1,12 @@
 
 Library/
-
+.vs/
 .collabignore
 
 .vs/MyFirstGame/v16/.suo
-
-obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+Assembly-CSharp.csproj
+Assembly-CSharp-Editor-firstpass.csproj
+Assembly-CSharp-firstpass.csproj
+obj/
+Logs/
+Temp/
