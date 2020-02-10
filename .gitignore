@@ -1,0 +1,8 @@
+
+Library/
+
+.collabignore
+
+.vs/MyFirstGame/v16/.suo
+
+obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
