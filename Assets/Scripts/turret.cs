@@ -7,6 +7,7 @@ public class turret : MonoBehaviour
     bool inradius = false;
     public GameObject player;
     public AnimationCurve myCurve;
+    
     // Start is called before the first frame update
    
     void Start()
@@ -30,7 +31,6 @@ public class turret : MonoBehaviour
             if (transform.rotation != Quaternion.LookRotation(other.transform.position - transform.position))
             {
                 transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.LookRotation(other.transform.position - transform.position), 3f);
-                Debug.Log("Help");
 
             }
             
