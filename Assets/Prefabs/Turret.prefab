@@ -126,7 +126,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 12.861798
+  m_Radius: 22.740244
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3657967597674659371
 MonoBehaviour:
@@ -147,6 +147,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  bullet: {fileID: 1597165906837671985, guid: be48fb74043210249b6d2d3a14705447, type: 3}
 --- !u!1001 &6440488606957516797
 PrefabInstance:
   m_ObjectHideFlags: 0
