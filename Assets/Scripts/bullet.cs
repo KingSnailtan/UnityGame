@@ -29,7 +29,7 @@ public class bullet : MonoBehaviour
     {
         if (other.gameObject.GetComponent<Health>() != null)
         {
-            other.gameObject.GetComponent<Health>().damage(damageAmount, damageType);
+            other.gameObject.GetComponent<Health>().damage(damageAmount, damageType,this.transform);
         }
         Debug.Log("Hit death");
         Destroy(this.gameObject);

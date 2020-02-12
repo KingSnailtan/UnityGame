@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour, Health
 {
     public float health = 100f, maxHealth = 100f;
-    public void damage(float damageToTake, myEnums.damageType damageType)
+    public void damage(float damageToTake, myEnums.damageType damageType, Transform transform)
     {
         health -= damageToTake;
         if (health <= 0)

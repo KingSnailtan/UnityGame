@@ -8,7 +8,7 @@ public interface Health
 
     float getHealth();
     float getMaxHealth();
-    void damage(float damageToTake, myEnums.damageType damageType);
+    void damage(float damageToTake, myEnums.damageType damageType,Transform damageSourcePosition);
 
     void onDeath();
  
